@@ -1,7 +1,7 @@
 {
-  "name": "groestl-hash-js",
-  "version": "1.0.0",
-  "description": "groestl javascript hashing algorithm in pure javascript",
+  "name": "@edge.app/groestl-hash-js",
+  "version": "1.0.0-edge.1",
+  "description": "groestl javascript hashing algorithm in pure javascript (Edge fork of Groestlcoin/groestl-hash-js — published to avoid git-dep prep bug)",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js",
@@ -31,5 +31,8 @@
     "grunt-contrib-watch": "^1.0.0",
     "mocha": "^2.5.3",
     "uglify": "^0.1.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
